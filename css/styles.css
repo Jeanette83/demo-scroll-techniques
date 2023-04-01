@@ -6,6 +6,7 @@ h2 {
 
 .horizontal-content {
     display: flex;
+    overflow: scroll;
 }
 
 
@@ -15,5 +16,5 @@ h2 {
     background-color: magenta;
     margin: 1rem 0.5rem;
     border-radius: 0.25rem;
-    flex: 0 0 20.625rem;
+    flex: 0 0 20.625rem;   /* this says grow:no shrink:no width:330px*/
 }
