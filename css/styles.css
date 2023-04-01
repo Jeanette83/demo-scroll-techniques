@@ -31,3 +31,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.movie-bg h2 {
+    color: #fff;
+}
+
