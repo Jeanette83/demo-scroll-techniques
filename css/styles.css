@@ -7,15 +7,19 @@ h2 {
 .horizontal-content {
     display: flex;
     overflow: scroll;
-    overflow-y: hidden;
+    overflow-y: hidden;  /* hides the vertical scroll bar that you don't need*/
 }
 
 
 .horizontal-content > div {
-   
     height: 11.6875rem;
     background-color: magenta;
     margin: 1rem 0.5rem;
     border-radius: 0.25rem;
     flex: 0 0 20.625rem;   /* this says grow:no shrink:no width:330px*/
+}
+
+.horizontal-content > div:hover {
+    flex: 0 0 21.625rem;  
+    height: 12.8125rem;
 }
