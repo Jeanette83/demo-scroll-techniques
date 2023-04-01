@@ -4,6 +4,11 @@ h2 {
     padding: 1rem;
 }
 
+.horizontal-content {
+    display: flex;
+}
+
+
 .horizontal-content > div {
     width: 20.625rem;
     height: 11.6875rem;
