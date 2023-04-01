@@ -7,4 +7,7 @@ h2 {
 div {
     width: 20.625rem;
     height: 11.6875rem;
+    background-color: magenta;
+    margin: 1rem 0.5rem;
+    border-radius: 0.25rem;
 }
