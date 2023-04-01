@@ -37,3 +37,8 @@ h2 {
     color: #fff;
 }
 
+p {
+    padding: 1.5rem 1rem;
+    max-width: 70ch;
+}
+
