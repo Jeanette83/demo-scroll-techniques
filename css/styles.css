@@ -32,6 +32,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 18.75rem;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .movie-bg h2 {
@@ -42,4 +44,6 @@ p {
     padding: 1.5rem 1rem;
     max-width: 70ch;
 }
+
+
 
