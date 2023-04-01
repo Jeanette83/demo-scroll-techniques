@@ -7,7 +7,7 @@ h2 {
 .horizontal-content {
     display: flex;
     height: calc(12.8125rem + 3rem);
-    align-items: center;
+    align-items: center; /* this makes the box grow vertically both up and down, instead of just down*/
     overflow: scroll;
     overflow-y: hidden;  /* hides the vertical scroll bar that you don't need*/
 }
@@ -24,4 +24,9 @@ h2 {
 .horizontal-content > div:hover {
     flex: 0 0 21.625rem;  
     height: 12.8125rem;
+}
+
+.movie-bg {
+    background-image: url(../img/movie.jpg);
+    background-repeat: no-repeat;
 }
