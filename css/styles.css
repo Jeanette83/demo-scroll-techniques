@@ -29,4 +29,5 @@ h2 {
 .movie-bg {
     background-image: url(../img/movie.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
