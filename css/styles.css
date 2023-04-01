@@ -4,7 +4,7 @@ h2 {
     padding: 1rem;
 }
 
-div {
+.horizontal-content > div {
     width: 20.625rem;
     height: 11.6875rem;
     background-color: magenta;
