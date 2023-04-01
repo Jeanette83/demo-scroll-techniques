@@ -33,7 +33,7 @@ h2 {
     background-size: cover;
     height: 18.75rem;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom center;
 }
 
 .movie-bg h2 {
